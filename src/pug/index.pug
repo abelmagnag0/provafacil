@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Small Business - Start Bootstrap Template
+        title Prova Fácil
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
@@ -16,78 +16,135 @@ html(lang='en')
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
 
+        link(rel='preconnect' ,href='https://fonts.googleapis.com')
+        link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin)
+        link(href='https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap', rel='stylesheet')
+
     body
 
         // Responsive navbar
-        nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+        nav.navbar.navbar-expand-lg.navbar-dark
             .container.px-5
-                a.navbar-brand(href='#!') Start Bootstrap
+                a.navbar-brand(href='#') Prova Fácil
                 button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
                     span.navbar-toggler-icon
                 #navbarSupportedContent.collapse.navbar-collapse
                     ul.navbar-nav.ms-auto.mb-2.mb-lg-0
                         li.nav-item
-                            a.nav-link.active(aria-current='page', href='#!') Home
+                            a.nav-link.active(aria-current='page', href='#') Home
                         li.nav-item
-                            a.nav-link(href='#!') About
+                            a.nav-link(href='/onde-estudar.html') Onde estudar
                         li.nav-item
-                            a.nav-link(href='#!') Contact
-                        li.nav-item
-                            a.nav-link(href='#!') Services
+                            a.nav-link(href='/acervo.html') Acervo
+
 
         // Page Content
         .container.px-4.px-lg-5
 
-            // Heading Row
+            // Header Content
             .row.gx-4.gx-lg-5.align-items-center.my-5
-                .col-lg-7
-                    img.img-fluid.rounded.mb-4.mb-lg-0(src='https://dummyimage.com/900x400/dee2e6/6c757d.jpg', alt='...')
-
                 .col-lg-5
-                    h1.font-weight-light Business Name or Tagline
-                    p
-                        | This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!
-                    a.btn.btn-primary(href='#!') Call to Action!
+                    h2.font-weight-light Comece sua preparação para o ENEM o quanto antes. As inscrições abrem no dia 10 de Maio, não perca mais tempo. Nós te ajudamos!
 
-            // Call to Action
-            .card.text-white.bg-secondary.my-5.py-4.text-center
-                .card-body
-                    p.text-white.m-0
-                        | This call to action card is a great place to showcase some important information or display a clever tagline!
+                .col-lg-7
+                    img.img-fluid.rounded.mb-4.mb-lg-0.img-principal(src='assets/plug.png', alt='...')
 
-            // Content Row
-            .row.gx-4.gx-lg-5
-                .col-md-4.mb-5
-                    .card.h-100
+            //- criar logica de ler as parada do
+            //- https://g1.globo.com/educacao/enem/2021/noticia/2022/04/11/leia-redacoes-nota-mil-do-enem-2021.ghtml
+            // Paragraph to Action
+            p.text-center.cta LEIA REDAÇÕES NOTA MIL DO ENEM 2021
+
+            div.new-question
+             h2.font-weight-light.text-center.my-4 Questões serão inéditas esse ano!
+             p.text-center De acordo com o Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep), as perguntas do Enem 2022 serão inéditas, visando aumentar a quantidade de testes prontos do Banco Nacional de Itens (BNI) <i>[acervo de questões aprovadas e revisadas para serem usadas na prova]</i> para torná-lo mais qualificado.
+
+            // About ENEM
+            div.about-enem
+             h1.font-weight-light.text-center.my-4 Sobre o ENEM
+             p O Exame Nacional do Ensino Médio (Enem) foi instituído em 1998, com o objetivo de avaliar o desempenho escolar dos estudantes ao término da educação básica. Em 2009, o exame aperfeiçoou sua metodologia e passou a ser utilizado como mecanismo de acesso à educação superior. Desde 2020, o participante pode escolher entre fazer o exame impresso ou o Enem Digital, com provas aplicadas em computadores, em locais de prova definidos pelo Inep.
+             p As notas do Enem podem ser usadas para acesso ao Sistema de Seleção Unificada (Sisu) e ao Programa Universidade para Todos (ProUni). Elas também são aceitas em mais de 50 instituições de educação superior portuguesas. Além disso, os participantes do Enem podem pleitear financiamento estudantil em programas do governo, como o Fundo de Financiamento Estudantil (Fies). Os resultados do Enem possibilitam, ainda, o desenvolvimento de estudos e indicadores educacionais.
+             p Qualquer pessoa que já concluiu o ensino médio ou está concluindo a etapa pode fazer o Enem para acesso à educação superior. Os participantes que ainda não concluíram o ensino médio podem participar como “treineiros” e seus resultados no exame servem somente para autoavaliação de conhecimentos.
+             p A aplicação do Enem ocorre em dois dias. A Política de Acessibilidade e Inclusão do Inep garante atendimento especializado e tratamento pelo nome social, além de diversos recursos de acessibilidade. Há também uma aplicação para pessoas privadas de liberdade.
+             p Os participantes fazem provas de quatro áreas de conhecimento: linguagens, códigos e suas tecnologias; ciências humanas e suas tecnologias; ciências da natureza e suas tecnologias; e matemática e suas tecnologias, que ao todo somam 180 questões objetivas. Os participantes também são avaliados por meio de uma redação, que exige o desenvolvimento de um texto dissertativo-argumentativo a partir de uma situação-problema.
+
+             h1.font-weight-light.text-center.my-4 O que cai?
+             .row.gx-4.gx-lg-5
+                .col-md-4.mb-4
+                    .card
                         .card-body
-                            h2.card-title Card One
-                            p.card-text
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.
-                        .card-footer
-                            a.btn.btn-primary.btn-sm(href='#!') More Info
+                            h2.subject-title.text-center Ciências da Natureza
+                            p.subject-content.text-center
+                                | Biologia, Química e Física;
 
-                .col-md-4.mb-5
-                    .card.h-100
+                .col-md-4.mb-4
+                    .card
                         .card-body
-                            h2.card-title Card Two
-                            p.card-text
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.
-                        .card-footer
-                            a.btn.btn-primary.btn-sm(href='#!') More Info
+                            h2.subject-title.text-center Ciências Humanas
+                            p.subject-content.text-center
+                                |  História, Geografia, Filosofia e Sociologia;
 
-                .col-md-4.mb-5
-                    .card.h-100
+                .col-md-4.mb-4
+                    .card
                         .card-body
-                            h2.card-title Card Three
-                            p.card-text
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.
-                        .card-footer
-                            a.btn.btn-primary.btn-sm(href='#!') More Info
+                            h2.subject-title.text-center Linguagens, Códigos e suas tecnologias
+                            p.subject-content.text-center
+                                | Português, Literatura e Língua Estrangeira;
+                div.gambi
+                    .row.gx-4.gx-lg-5
+
+                        .col-md-4.mb-5
+                            .card
+                                .card-body
+                                    h2.subject-title.text-center Matemática e suas tecnologias
+                                    p.subject-content.text-center
+                                        | Geometria, Estatística, etc;
+                        .col-md-4.mb-5
+                            .card
+                                .card-body
+                                    h2.subject-title.text-center Redação
+                                    p.subject-content.text-center
+                                        | Tema aleatório valendo 1000 pontos!
+
+            //- // Content Row (utiliza esse content pra fazer as opçoes de redaçao de 1000 pro usuario escolher)
+            //- .row.gx-4.gx-lg-5
+            //-     .col-md-4.mb-5
+            //-         .card.h-100
+            //-             .card-body
+            //-                 h2.card-title Card One
+            //-                 p.card-text
+            //-                     | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.
+            //-             .card-footer
+            //-                 a.btn.btn-primary.btn-sm(href='#!') More Info
+
+            //-     .col-md-4.mb-5
+            //-         .card.h-100
+            //-             .card-body
+            //-                 h2.card-title Card Two
+            //-                 p.card-text
+            //-                     | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.
+            //-             .card-footer
+            //-                 a.btn.btn-primary.btn-sm(href='#!') More Info
+
+            //-     .col-md-4.mb-5
+            //-         .card.h-100
+            //-             .card-body
+            //-                 h2.card-title Card Three
+            //-                 p.card-text
+            //-                     | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.
+            //-             .card-footer
+            //-                 a.btn.btn-primary.btn-sm(href='#!') More Info
+
+
+            //- // Call to Action
+            //- .card.text-white.bg-secondary.my-5.py-4.text-center
+            //-     .card-body
+            //-         p.text-white.m-0
+            //-             | This call to action card is a great place to showcase some important information or display a clever tagline!
 
         // Footer
-        footer.py-5.bg-dark
+        footer.py-4.bg-dark#footer
             .container.px-4.px-lg-5
-                p.m-0.text-center.text-white Copyright &copy; Your Website 2022
+                p.m-0.text-center.text-white Copyright &copy; Prova Fácil 2022
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')

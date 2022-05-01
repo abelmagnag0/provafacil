@@ -1,0 +1,164 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Prova Fácil
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+        link(rel='preconnect' ,href='https://fonts.googleapis.com')
+        link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin)
+        link(href='https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap', rel='stylesheet')
+
+    body
+
+        // Responsive navbar
+        nav.navbar.navbar-expand-lg.navbar-dark
+            .container.px-5
+                a.navbar-brand(href='#') Prova Fácil
+                button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                    span.navbar-toggler-icon
+                #navbarSupportedContent.collapse.navbar-collapse
+                    ul.navbar-nav.ms-auto.mb-2.mb-lg-0
+                        li.nav-item
+                            a.nav-link(href='/') Home
+                        li.nav-item
+                            a.nav-link.active(aria-current='page',href='#') Onde estudar
+                        li.nav-item
+                            a.nav-link(href='/acervo.html') Acervo
+
+        // Page Content
+        .container.px-4.px-lg-5
+
+            div.how-study-header
+             h2.font-weight-light.text-center.my-4 Por onde começar?
+             i.mb-3.text-center Não importa como, o importante é começar o quanto antes
+             p.text-justify Mas, nós, do Prova Fácil, por sermos universitários, já nos deparamos infinitas vezes com aquela pulga atrás da orelha de por onde começar a estudar tal tópico, e isso não serve apenas para o ENEM, mas para quase tudo. Então, fizemos uma seleçãozinha de conteúdos muito Top que com certeza vão ajudar você a dar seu pontapé nos estudos!
+             i.my-3.text-center Vale lembrar que alguns conteúdos serão totalmente gratuitos e outros podem exigir uma mensalidade!
+
+            .row.gx-4.gx-lg-5
+                .col-md-4.mb-5
+                    .card.h-100
+                        .card-body
+                            h2.card-title Trilha do Enem
+                            p.card-text
+                                | Um canal cheio de dicas sobre o Enem e mais: Direto eles fazem lives corrigindo redações e provas. O mais legal é que os materiais ainda contam com tradutores de Libras!
+                        .card-footer
+                            a.btn.btn-primary.btn-sm(href='https://www.youtube.com/channel/UCHotQ-kUNl6rYWqlISudEWQ', target='_blank') Saber mais
+
+                .col-md-4.mb-5
+                    .card.h-100
+                        .card-body
+                            h2.card-title Biologia Total
+                            p.card-text
+                                | O professor Jubilut tem como objetivo fazer os alunos estudarem Biologia sem complicações. É o maior canal da área no Brasil e ele ensina de uma forma descontraída e criativa.
+                        .card-footer
+                            a.btn.btn-primary.btn-sm(href='https://www.youtube.com/user/jubilut', target='_blank') Saber mais
+
+                .col-md-4.mb-5
+                    .card.h-100
+                        .card-body
+                            h2.card-title Ferretto Matemática
+                            p.card-text
+                                | Não tem como falar de estudar para o ENEM sem falar no Ferretto. Esse professor já fez vídeos de todos conteúdos de Matemática que caem, além de excelentes resumos e métodos de aprendizado.
+                        .card-footer
+                            a.btn.btn-primary.btn-sm(href='https://www.youtube.com/user/professorferretto/', target='_blank') Saber mais
+                .col-md-4.mb-5
+                    .card.h-100
+                        .card-body
+                            h2.card-title Proenem
+                            p.card-text
+                                | Uma plataforma paga, mas por preços bem acessíveis (menos de R$20!) você tem acesso a conteúdos e planos de estudos sobre todas disciplinas, se você busca algo semelhante a um pré-vestibular esse é o caminho.
+                        .card-footer
+                            a.btn.btn-primary.btn-sm(href='https://www.proenem.com.br/', target='_blank') Saber mais
+
+                .col-md-4.mb-5
+                    .card.h-100
+                        .card-body
+                            h2.card-title Professor Noslen
+                            p.card-text
+                                | Um ótimo professor de Língua Portuguesa, Literatura e Redação, Noslen veio para desmistificar a ideia de que português é difícil. Acredito que todos já tenham visto um vídeo dele, nem que tenha sido mostrado por um outro professor durante aula!
+                        .card-footer
+                            a.btn.btn-primary.btn-sm(href='https://www.youtube.com/channel/UCwSxSJqGpSRpEsq5-YUbM8g/featured', target='_blank') Saber mais
+
+                .col-md-4.mb-5
+                    .card.h-100
+                        .card-body
+                            h2.card-title QG do Enem
+                            p.card-text
+                                | O canal oferece uma preparação completa para Enem (e alguns outros vestibulares semelhantes como UERJ). Através de uma programação gratuita consegue cobrir toda a grade de matérias.
+                        .card-footer
+                            a.btn.btn-primary.btn-sm(href='https://www.youtube.com/user/qgdoenem', target='_blank') Saber mais
+
+                .col-md-4.mb-5
+                    .card.h-100
+                        .card-body
+                            h2.card-title reVisão
+                            p.card-text
+                                | Esse é o primeiro conteúdo que não está diretamente ligado ao Enem, mas por sempre abordar temas (atuais e históricos) serve como grande ajuda, ainda mais que todo o conteúdo tem uma pegada bem cinematográfica.
+                        .card-footer
+                            a.btn.btn-primary.btn-sm(href='https://www.youtube.com/channel/UCiNq4OzZBFmlmERJrZdOHig', target='_blank') Saber mais
+
+                .col-md-4.mb-5
+                    .card.h-100
+                        .card-body
+                            h2.card-title Descomplica
+                            p.card-text
+                                | Outra opção paga com modelo bem semelhante a um cursinho preparatório. Lá você pode tirar dúvidas, assistir aulas, fazer exercícios e muito mais. Um dos materiais completos de maior qualidade para se preparar para o Enem.
+                        .card-footer
+                            a.btn.btn-primary.btn-sm(href='https://descomplica.com.br/', target='_blank') Saber mais
+
+                .col-md-4.mb-5
+                    .card.h-100
+                        .card-body
+                            h2.card-title Física Total
+                            p.card-text
+                                | O professor Urquiza é especialista em fazer os alunos perdidos a entenderem e perderem medo da mãe Física. São mais de 20 anos de experiência na área explicado bem mastigado para todos os públicos. Ele também tem um <a href="https://www.fisicatotal.com.br" target="_blank">site</a> com podcasts e postagens que serão úteis!
+                        .card-footer
+                            a.btn.btn-primary.btn-sm(href='https://www.youtube.com/user/FISICATOTAL', target='_blank') Saber mais
+                div.gambi
+                    .row.gx-4.gx-lg-5
+                        .col-md-4.mb-5
+                            .card.h-100
+                                .card-body
+                                    h2.card-title SmallAdvantages
+                                    p.card-text
+                                        | O inglês é uma disciplina do Enem com questões com foco na interpretação de texto e nesse quesito o americano Gavin Roy explica (em português é claro!) muito bem tudo sobre a língua. Inclusive ele brinca ao falar que aprendeu português para ensinar você a falar inglês.
+                                .card-footer
+                                    a.btn.btn-primary.btn-sm(href='https://www.youtube.com/c/SmallAdvantages/', target='_blank') Saber mais
+
+                        .col-md-4.mb-5
+                            .card.h-100
+                                .card-body
+                                    h2.card-title Química com Prof Paulo Valim
+                                    p.card-text
+                                        | O nome do canal já diz tudo. Esse professor vai te ajudar a aprender, de forma didática e prática, para que consiga ter resultados positivos não só no Enem, mas em outros concursos também. O cara manja muito!
+                                .card-footer
+                                    a.btn.btn-primary.btn-sm(href='https://www.youtube.com/c/plvalim', target='_blank') Saber mais
+
+            //- // Call to Action
+            //- .card.text-white.bg-secondary.my-5.py-4.text-center
+            //-     .card-body
+            //-         p.text-white.m-0
+            //-             | This call to action card is a great place to showcase some important information or display a clever tagline!
+
+        // Footer
+        footer.py-4.bg-dark#footer
+            .container.px-4.px-lg-5
+                p.m-0.text-center.text-white Copyright &copy; Prova Fácil 2022
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')

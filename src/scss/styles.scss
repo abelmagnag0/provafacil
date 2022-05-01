@@ -1,2 +1,89 @@
 // Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
+
+* {
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+p {
+    color: #555 !important;
+}
+.navbar {
+    background-color: #8ad;
+}
+.navbar-brand {
+    font-family: "Leckerli One", cursive;
+}
+.img-principal {
+    width: 100%;
+    height: 320px;
+}
+.cta {
+    display: block;
+    color: #8ad !important;
+    padding: 0.5rem 0;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.about-enem {
+    width: 1000px;
+    margin: 0 auto;
+
+    p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .card {
+        height: 150px;
+
+        .subject-title {
+            font-size: 20px;
+        }
+        .subject-content {
+            margin: 0;
+        }
+    }
+}
+.gambi {
+    position: relative;
+    right: -166px;
+}
+.new-question {
+    width: 1000px;
+    margin: 0 auto;
+}
+// onde-estudar.html
+.how-study-header {
+    width: 700px;
+    margin: 0 auto;
+
+    i {
+        display: block;
+        margin: 0;
+    }
+    p {
+        margin: 0;
+    }
+}
+#footer {
+    width: 100vw;
+}
