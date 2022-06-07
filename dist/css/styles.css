@@ -11398,3 +11398,13 @@ p {
     margin-bottom: 0px;
   }
 }
+.essay-header h2, .essay-header .h2,
+.essay-wrapper {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.essay p {
+  text-align: justify;
+  color: black !important;
+}

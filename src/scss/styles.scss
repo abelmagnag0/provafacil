@@ -97,9 +97,20 @@ p {
 .results a:first-child {
     margin-bottom: 8px;
 }
-@media(min-width: 1400px){
+@media (min-width: 1400px) {
     .days a:first-child,
     .results a:first-child {
         margin-bottom: 0px;
     }
+}
+// redaçoes
+.essay-header h2,
+.essay-wrapper {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.essay p {
+    text-align: justify;
+    color: black !important;
 }
