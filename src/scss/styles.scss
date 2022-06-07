@@ -87,3 +87,19 @@ p {
 #footer {
     width: 100vw;
 }
+// acervo.html
+.card-footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.days a:first-child,
+.results a:first-child {
+    margin-bottom: 8px;
+}
+@media(min-width: 1400px){
+    .days a:first-child,
+    .results a:first-child {
+        margin-bottom: 0px;
+    }
+}
